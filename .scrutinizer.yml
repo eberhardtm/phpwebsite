@@ -1,5 +1,9 @@
 # .scrutinizer.yml
 
+build:
+    environment:
+        php: '5.4.28'
+
 checks:
     php:
         code_rating: true
